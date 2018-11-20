@@ -22,7 +22,7 @@ public class Trabson extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
-        //olha eu no git, mãe!
+        //olha eu no git, mãe!  
         stage.setScene(scene);
         stage.show();
     }

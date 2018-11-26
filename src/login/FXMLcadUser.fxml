@@ -10,28 +10,27 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="487.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="login.FXMLcadUserController">
+<AnchorPane id="AnchorPane" prefHeight="250.0" prefWidth="487.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.FXMLcadUserController">
    <children>
       <BorderPane prefHeight="250.0" prefWidth="449.0">
          <left>
-            <TableView prefHeight="232.0" prefWidth="242.0" BorderPane.alignment="CENTER">
+            <TableView prefHeight="232.0" prefWidth="242.0" style="-fx-background-color: gray;" BorderPane.alignment="CENTER">
                <columns>
-                  <TableColumn prefWidth="191.0" text="Usuario" />
+                  <TableColumn prefWidth="191.0" text="Usuário" />
                </columns>
             </TableView>
          </left>
          <right>
             <Pane prefHeight="250.0" prefWidth="244.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button fx:id="BTentrar" layoutX="161.0" layoutY="200.0" mnemonicParsing="false" text="Cadastrar" />
+                  <Button fx:id="BTentrar" layoutX="161.0" layoutY="200.0" mnemonicParsing="false" style="-fx-background-color: #181818; -fx-border-color: gray; -fx-border-radius: 50; -fx-text-fill: darkturquoise; -fx-background-radius: 50;" text="Cadastrar" />
                   <TextField fx:id="TXTusuario" layoutX="35.0" layoutY="41.0" prefHeight="25.0" prefWidth="193.0" />
-                  <Label layoutX="35.0" layoutY="24.0" text="Usuário" />
-                  <Label layoutX="35.0" layoutY="76.0" text="Senha" />
+                  <Label layoutX="35.0" layoutY="24.0" style="-fx-text-fill: darkturquoise;" text="Usuário" />
+                  <Label layoutX="35.0" layoutY="76.0" style="-fx-text-fill: darkturquoise;" text="Senha" />
                   <PasswordField fx:id="TXTsenha" layoutX="35.0" layoutY="97.0" prefHeight="25.0" prefWidth="193.0" />
-                  <Label layoutX="35.0" layoutY="132.0" text="Repetir a senha" />
+                  <Label layoutX="35.0" layoutY="132.0" style="-fx-text-fill: darkturquoise;" text="Repetir a senha" />
                   <PasswordField fx:id="TXTsenha1" layoutX="35.0" layoutY="153.0" prefHeight="25.0" prefWidth="193.0" />
-                  <Button fx:id="BTentrar1" layoutX="34.0" layoutY="200.0" mnemonicParsing="false" text="Trocar senha" />
+                  <Button fx:id="BTentrar1" layoutX="34.0" layoutY="200.0" mnemonicParsing="false" style="-fx-background-color: #181818; -fx-border-radius: 50; -fx-border-color: gray; -fx-text-fill: darkturquoise; -fx-background-radius: 50;" text="Trocar senha" />
                </children>
             </Pane>
          </right>

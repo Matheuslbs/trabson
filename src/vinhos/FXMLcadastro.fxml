@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="vinhos.FXMLcadastroController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vinhos.FXMLcadastroController">
    <children>
       <BorderPane layoutX="-2.0" layoutY="-1.0" prefHeight="400.0" prefWidth="607.0">
          <top>
@@ -40,11 +40,11 @@
                         </Menu>
                     </menus>
                   </MenuBar>
-                  <Label layoutX="201.0" layoutY="32.0" text="Nome" />
+                  <Label layoutX="201.0" layoutY="32.0" style="-fx-text-fill: darkturquoise;" text="Nome" />
                   <TextField layoutX="35.0" layoutY="59.0" />
-                  <Label layoutX="35.0" layoutY="32.0" text="ID" />
+                  <Label layoutX="35.0" layoutY="32.0" style="-fx-text-fill: darkturquoise;" text="ID" />
                   <TextField layoutX="201.0" layoutY="59.0" />
-                  <Label layoutX="385.0" layoutY="32.0" text="Produtor" />
+                  <Label layoutX="385.0" layoutY="32.0" style="-fx-text-fill: darkturquoise;" text="Produtor" />
                   <TextField layoutX="385.0" layoutY="59.0" />
                </children>
             </Pane>
@@ -52,11 +52,11 @@
          <center>
             <Pane prefHeight="144.0" prefWidth="607.0" BorderPane.alignment="CENTER">
                <children>
-                  <Label layoutX="205.0" layoutY="15.0" text="Ano sugerido" />
+                  <Label layoutX="205.0" layoutY="15.0" style="-fx-text-fill: darkturquoise;" text="Ano sugerido" />
                   <TextField layoutX="205.0" layoutY="39.0" prefHeight="25.0" prefWidth="152.0" />
                   <TextField layoutX="34.0" layoutY="39.0" prefHeight="25.0" prefWidth="140.0" />
-                  <Label layoutX="34.0" layoutY="15.0" text="Ano Fabricação" />
-                  <Label layoutX="382.0" layoutY="16.0" text="Valor unitário" />
+                  <Label layoutX="34.0" layoutY="15.0" style="-fx-text-fill: darkturquoise;" text="Ano Fabricação" />
+                  <Label layoutX="382.0" layoutY="16.0" style="-fx-text-fill: darkturquoise;" text="Valor unitário" />
                   <TextField layoutX="382.0" layoutY="39.0" prefHeight="25.0" prefWidth="152.0" />
                </children>
             </Pane>
@@ -64,9 +64,9 @@
          <bottom>
             <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button layoutX="203.0" layoutY="154.0" mnemonicParsing="false" text="Editar" />
-                  <Button layoutX="325.0" layoutY="154.0" mnemonicParsing="false" text="Salvar" />
-                  <TableView prefHeight="145.0" prefWidth="607.0">
+                  <Button layoutX="203.0" layoutY="154.0" mnemonicParsing="false" style="-fx-background-color: #181818; -fx-background-radius: 50; -fx-text-fill: darkturquoise; -fx-border-color: gray; -fx-border-radius: 50;" text="Editar" />
+                  <Button layoutX="325.0" layoutY="154.0" mnemonicParsing="false" style="-fx-background-color: #181818; -fx-background-radius: 50; -fx-text-fill: darkturquoise; -fx-border-color: gray; -fx-border-radius: 50;" text="Salvar" />
+                  <TableView prefHeight="145.0" prefWidth="607.0" style="-fx-background-color: gray;">
                     <columns>
                       <TableColumn prefWidth="75.0" text="ID" />
                       <TableColumn prefWidth="75.0" text="Nome" />

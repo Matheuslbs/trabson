@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="394.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vendas.RegVendasController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TableView layoutY="27.0" prefHeight="175.0" prefWidth="171.0" style="-fx-background-color: darkgray;">
+        <columns>
+          <TableColumn prefWidth="99.0" text="Vinho" />
+          <TableColumn prefWidth="71.0" text="Quantidade" />
+        </columns>
+      </TableView>
+      <TableView layoutX="169.0" layoutY="27.0" prefHeight="376.0" prefWidth="431.0" style="-fx-background-color: gray;">
+        <columns>
+          <TableColumn prefWidth="159.0" text="Vinho" />
+          <TableColumn prefWidth="131.0" text="Ano" />
+            <TableColumn prefWidth="138.0" text="Preço" />
+        </columns>
+      </TableView>
+      <Pane layoutY="202.0" prefHeight="201.0" prefWidth="171.0" style="-fx-background-color: black;">
+         <children>
+            <Button layoutX="5.0" layoutY="52.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" style="-fx-background-color: #181818; -fx-border-color: gray; -fx-border-radius: 50; -fx-background-radius: 50; -fx-text-fill: darkturquoise;" text="Adicionar" />
+            <Button layoutX="5.0" layoutY="88.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" style="-fx-background-color: #181818; -fx-border-color: gray; -fx-border-radius: 50; -fx-background-radius: 50; -fx-text-fill: red;" text="Remover Produto" textFill="RED" />
+            <Button layoutX="5.0" layoutY="125.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="161.0" style="-fx-background-color: #181818; -fx-border-color: gray; -fx-background-radius: 50; -fx-border-radius: 50;" text="Finalizar Venda" textFill="#179712" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -6,12 +6,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="trabson.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="trabson.FXMLDocumentController">
    <children>
-      <Button fx:id="BTentrar" layoutX="175.0" layoutY="144.0" mnemonicParsing="false" text="ENTRAR" />
+      <Button fx:id="BTentrar" layoutX="175.0" layoutY="144.0" mnemonicParsing="false" style="-fx-background-color: #181818; -fx-text-fill: darkturquoise; -fx-border-color: gray; -fx-border-radius: 50; -fx-background-radius: 50;" text="ENTRAR" />
       <TextField fx:id="TXTusuario" layoutX="86.0" layoutY="49.0" />
-      <Label layoutX="86.0" layoutY="32.0" text="Usuário" />
-      <Label layoutX="86.0" layoutY="84.0" text="Senha" />
+      <Label layoutX="86.0" layoutY="32.0" style="-fx-text-fill: darkturquoise;" text="Usuário" />
+      <Label layoutX="86.0" layoutY="84.0" style="-fx-text-fill: darkturquoise;" text="Senha" />
       <PasswordField fx:id="TXTsenha" layoutX="86.0" layoutY="105.0" />
    </children>
 </AnchorPane>

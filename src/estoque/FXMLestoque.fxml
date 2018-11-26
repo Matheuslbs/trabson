@@ -14,14 +14,13 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="562.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="vendas.FXMLvendasController">
+<AnchorPane id="AnchorPane" prefHeight="407.0" prefWidth="562.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vendas.FXMLvendasController">
    <children>
       <BorderPane layoutX="-3.0" layoutY="-1.0" prefHeight="408.0" prefWidth="622.0">
          <left>
             <Pane prefHeight="242.0" prefWidth="251.0" BorderPane.alignment="CENTER">
                <children>
-                  <TableView layoutX="8.0" layoutY="4.0" prefHeight="232.0" prefWidth="242.0">
+                  <TableView layoutX="2.0" layoutY="-6.0" prefHeight="261.0" prefWidth="247.0" style="-fx-background-color: gray;">
                     <columns>
                       <TableColumn prefWidth="45.0" text="ID" />
                       <TableColumn prefWidth="121.0" text="Vinho" />
@@ -37,7 +36,7 @@
          <bottom>
             <Pane prefHeight="138.0" prefWidth="598.0" BorderPane.alignment="CENTER">
                <children>
-                  <TableView layoutY="10.0" prefHeight="123.0" prefWidth="475.0">
+                  <TableView layoutY="10.0" prefHeight="128.0" prefWidth="481.0" style="-fx-background-color: gray;">
                     <columns>
                       <TableColumn prefWidth="85.0" text="Data" />
                       <TableColumn prefWidth="118.0" text="Vinho" />
@@ -45,21 +44,21 @@
                         <TableColumn prefWidth="146.0" text="Usuario" />
                     </columns>
                   </TableView>
-                  <Button layoutX="478.0" layoutY="10.0" mnemonicParsing="false" prefHeight="125.0" prefWidth="144.0" text="Atualizar" />
+                  <Button layoutX="478.0" layoutY="10.0" mnemonicParsing="false" prefHeight="129.0" prefWidth="149.0" text="Atualizar" />
                </children>
             </Pane>
          </bottom>
          <center>
             <Pane prefHeight="242.0" prefWidth="307.0" BorderPane.alignment="CENTER">
                <children>
-                  <Label layoutX="96.0" layoutY="28.0" prefHeight="30.0" prefWidth="107.0" text="Quantidade">
+                  <Label layoutX="96.0" layoutY="28.0" prefHeight="30.0" prefWidth="107.0" style="-fx-text-fill: darkturquoise;" text="Quantidade">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Label>
                   <TextField layoutX="93.0" layoutY="66.0" />
-                  <Button layoutX="77.0" layoutY="112.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="72.0" text="Adicionar" />
-                  <Button layoutX="179.0" layoutY="111.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="75.0" text="Remover" />
+                  <Button layoutX="77.0" layoutY="112.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="72.0" style="-fx-background-color: #181818; -fx-text-fill: darkturquoise; -fx-border-color: gray; -fx-border-radius: 50; -fx-background-radius: 50;" text="Adicionar" />
+                  <Button layoutX="179.0" layoutY="111.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="75.0" style="-fx-background-color: #181818; -fx-background-radius: 50; -fx-border-color: gray; -fx-text-fill: darkturquoise; -fx-border-radius: 50;" text="Remover" />
                </children>
                <padding>
                   <Insets right="10.0" />
